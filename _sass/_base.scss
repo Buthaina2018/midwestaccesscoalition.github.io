@@ -10,6 +10,7 @@ $light-coral: rgb(246, 120, 86);
 $coral: #ffcc99;
 $seafoam-green: #99cc99;
 $dark-grey: #282828;
+$light-grey: #EEE;
 $off-white: #F8F8F8;
 
 //SITE PARTS
@@ -135,6 +136,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 11em;
     border-radius: 50%;
     border: 1px;
+    margin: 5px 0;
     .sticky-btn-text-container {
         position: relative;
         top: 4em;

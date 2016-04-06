@@ -10,19 +10,22 @@
 
       <div class="page-content">
         <div class="wrapper">
+          <div class="sidebar">
+            {% include sidebar.html %}
+          </div>
           <div class="content-box">
             {{ content }}
             {% include buttons.html %}
           </div>
           {% if site.upcoming_event %}
-            <div class="content-box">
+            <div class="content-box event-brite-content-box">
               {% include eventbrite.html %}
             </div>
           {% endif %}
         </div>
       </div>
     </div>
-    
+
     <div id="footer">
       {% include footer.html %}
     </div>
