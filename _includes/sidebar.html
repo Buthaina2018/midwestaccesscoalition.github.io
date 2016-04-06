@@ -5,6 +5,10 @@
   <div class="sidebar-content">
     {% include eventbrite.html %}
   </div>
+  {% else %}
+  <div class="sidebar-content">
+    {% include twitter.html %}
+  </div>
   {% endif %}
   <script>
     var windowsize = $(window).width();
