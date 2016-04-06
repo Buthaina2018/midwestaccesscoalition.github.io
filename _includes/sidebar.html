@@ -1,0 +1,17 @@
+<aside class="sidebar">
+  {% if site.announcements %}
+  {% endif %}
+  {% if site.upcoming_event %}
+  <div class="sidebar-content">
+    {% include eventbrite.html %}
+  </div>
+  {% endif %}
+  <script>
+    var windowsize = $(window).width();
+    $('aside').css('width', (windowsize/ 4.75));
+    $(window).resize(function(){
+      windowsize = $(window).width();
+      $('aside').css('width', (windowsize/ 4.75));
+    });
+  </script>
+</aside>
