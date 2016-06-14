@@ -81,25 +81,6 @@ a.selectedRollover{
     .trigger-nav {
         float: right;
     }
-    // .top-fixed-btns {
-    //     @include box-link-styles;
-    //     // float: right;
-    //     display: block;
-    //     position: fixed;
-    //     right: 20px;
-    //     top: 20px;
-    //     margin-left: 20px;
-    //     &:nth-child(2) {
-    //         top: 80px;
-    //         @include media-query($on-palm) {
-    //             right: 150px;
-    //             top: 9px;
-    //         }
-    //     }
-    //     @include media-query($on-palm) {
-    //         top: 9px;
-    //     }
-    // }
     @include media-query($on-palm) {
         background-color: $off-white;
         border-bottom: $chartreuse solid 2px;
@@ -193,6 +174,19 @@ a.selectedRollover{
 }
 
 
+// Team Page
+
+.team {
+    margin: 0 $spacing-unit;
+    h4 {
+        margin-bottom: -$spacing-unit/7;
+    }
+    p {
+        color: $purple;
+    }
+}
+
+
 
 /**
  * Posts
@@ -263,11 +257,6 @@ a.selectedRollover{
 }
 
 .ways-to-connect {
-    // padding: 2em;
-    // margin: 1em auto;
-    //&:hover {
-    //    //background-color: $coral;
-    //}
     &:after {
         @include clearfix;
     }
