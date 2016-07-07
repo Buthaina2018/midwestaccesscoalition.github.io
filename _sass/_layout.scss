@@ -290,6 +290,16 @@ section.ways-to-connect div.social-widgets {
     padding: 1em 0 0.5em 0;
     width: 100%;
 }
+
+.quote {
+    background-color: lighten($purple, 50%);
+    padding: $spacing-unit/2;
+    margin-bottom: $spacing-unit;
+    border: $purple 1px solid;
+    border-radius: 5px;
+    font-size: .75em;
+    // color: $coral;
+}
 // END WIDGETS
 
 /**
