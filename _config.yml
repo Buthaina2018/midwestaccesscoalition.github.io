@@ -20,7 +20,7 @@ upcoming_event_img_path: img/upcoming-event-flyer.jpg
 
 #CONTENT SETTINGS
 501_c_3_text_question: "Is MAC a 501(c)3?"
-501_c_3_text_answer: "Why yes! MAC is a non-profit organization, and any donations will be tax-deductible."
+501_c_3_text_answer: "Why yes! MAC is a 501(c)3 non-profit organization, and any donations will be tax-deductible."
 
 timezone: America/Chicago
 
