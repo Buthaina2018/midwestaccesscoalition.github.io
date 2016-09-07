@@ -1,0 +1,15 @@
+{% if site.upcoming_event %}
+	{% if site.upcoming_event_img_path %}
+		<a href="{{site.upcoming_event_img_path}}">
+			<img src="{{site.upcoming_event_img_path}}">
+		</a>
+	{% endif %}
+
+	{% if site.upcoming_event_description %}
+		<p>{{ site.upcoming_event_description }}</p>
+	{% endif %}
+
+	{% if site.upcoming_event_eb_url %}
+		{% include eventbrite.html %}
+	{% endif %}
+{% endif %}
