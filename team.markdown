@@ -16,10 +16,10 @@ layout: page
 	<p><i>Hannah</i></p>
 
 	<h4>Director of Finance</h4>
-	<p><i>Katie</i></p>
+	<p><i>Veronica</i></p>
 
 	<h4>Director of Outreach</h4>
-	<p><i>Veronica</i></p>
+	<p><i>Marie</i></p>
 
 	<h4>Director of Technology</h4>
 	<p><i>Nicole</i></p>
