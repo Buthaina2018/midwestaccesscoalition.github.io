@@ -12,10 +12,10 @@ layout: default
 </div>
 
 <div>
-	<h4>If you prefer to donate time and energy...</h4>
-	<p>You can volunteer to drive or host with the coalition. Or would you want to help plan, host, or attend a fundraiser? <a href="how-to-help.html">Get in touch here.</a></p>
+	{% include 501_c_3_text.html %}
 </div>
 
 <div>
-	{% include 501_c_3_text.html %}
+	<p>If you prefer to donate time and energy...</p>
+	<p>You can volunteer to drive or host with the coalition. Or would you want to help plan, host, or attend a fundraiser? <a href="how-to-help.html">Get in touch here.</a></p>
 </div>
